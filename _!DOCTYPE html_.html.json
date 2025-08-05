@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Mistério na Feira</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Mistério na Feira de Ciências</h1>
+  <p>O projeto de Lucas desapareceu! Clique nas pistas para investigar:</p>
+
+  <div class="pista" onclick="coletarPista('bilhete')">📝 Bilhete ameaçador</div>
+  <div class="pista" onclick="coletarPista('digital')">🔍 Impressão digital</div>
+  <div class="pista" onclick="coletarPista('pegadas')">👣 Pegadas no chão</div>
+
+  <button onclick="fazerAcusacao()">Fazer acusação</button>
+
+  <div id="resultado"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
